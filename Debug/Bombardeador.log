@@ -1,0 +1,203 @@
+﻿  Juego.cpp
+D:\ejemplo\Bombardeador\Escenario.h(36,18): warning C4353: se ha utilizado una extensión no estándar: constante 0 como expresión de función. Utilice en su lugar la función intrínseca '__noop'
+D:\ejemplo\Bombardeador\Escenario.h(36,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\ArrBombas.h(35,27): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\ArrBombas.h(44,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Mejora.h(30,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(49,55): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(49,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(75,68): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(75,54): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\ArrMejoras.h(37,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Enemigo.h(41,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Enemigo.h(81,10): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\ejemplo\Bombardeador\ArrEnemigos.h(38,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(63,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(82,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(103,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Juego.h(188,103): warning C4018: '<': no coinciden signed/unsigned
+  MenuPrincipal.cpp
+D:\ejemplo\Bombardeador\Escenario.h(36,18): warning C4353: se ha utilizado una extensión no estándar: constante 0 como expresión de función. Utilice en su lugar la función intrínseca '__noop'
+D:\ejemplo\Bombardeador\Escenario.h(36,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\ArrBombas.h(35,27): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\ArrBombas.h(44,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Mejora.h(30,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(49,55): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(49,41): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(75,68): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Mejora.h(75,54): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\ArrMejoras.h(37,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Enemigo.h(41,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\ejemplo\Bombardeador\Enemigo.h(81,10): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+D:\ejemplo\Bombardeador\ArrEnemigos.h(38,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(63,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(82,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Controlador.h(103,20): warning C4018: '<': no coinciden signed/unsigned
+D:\ejemplo\Bombardeador\Juego.h(188,103): warning C4018: '<': no coinciden signed/unsigned
+  Generando código...
+  Juego.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEscenario::CEscenario(void)" (??0CEscenario@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEscenario::~CEscenario(void)" (??1CEscenario@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CEscenario::generarMatriz(void)" (?generarMatriz@CEscenario@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEscenario::LlenarBase(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^)" (?LlenarBase@CEscenario@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEscenario::LlenarMatriz(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^)" (?LlenarMatriz@CEscenario@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int * * __thiscall CEscenario::getmatriz(void)" (?getmatriz@CEscenario@@QAEPAPAHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CJugador::CJugador(int,int)" (??0CJugador@@QAE@HH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CJugador::~CJugador(void)" (??1CJugador@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CJugador::getRectangulo(void)" (?getRectangulo@CJugador@@QAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setdx(int)" (?setdx@CJugador@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setdy(int)" (?setdy@CJugador@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::getx(void)" (?getx@CJugador@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::gety(void)" (?gety@CJugador@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::getvidas(void)" (?getvidas@CJugador@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setvidas(int)" (?setvidas@CJugador@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setDireccion(enum Direcciones)" (?setDireccion@CJugador@@QAEXW4Direcciones@@@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: enum Direcciones __thiscall CJugador::getDireccion(void)" (?getDireccion@CJugador@@QAE?AW4Direcciones@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setAcelerar(int)" (?setAcelerar@CJugador@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::ValidarMovimiento(int * *)" (?ValidarMovimiento@CJugador@@QAEXPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::DisminuirVidas(void)" (?DisminuirVidas@CJugador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::DisminuirVidas(int,int,int,int,int,int,int,int)" (?DisminuirVidas@CJugador@@QAEXHHHHHHHH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CJugador::DibujarJugador(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarJugador@CJugador@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CJugador::MoverJugador(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?MoverJugador@CJugador@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CBomba::CBomba(int,int)" (??0CBomba@@QAE@HH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CBomba::~CBomba(void)" (??1CBomba@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CBomba::getRectangulo(void)" (?getRectangulo@CBomba@@QAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: bool __thiscall CBomba::ValidarLugar(int,int,int * *)" (?ValidarLugar@CBomba@@QAE_NHHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CBomba::DibujarBomba(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int,int,int * *)" (?DibujarBomba@CBomba@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@HHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::Animar(void)" (?Animar@CBomba@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CBomba::DibujarExplosion(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarExplosion@CBomba@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::AnimarExplosion(void)" (?AnimarExplosion@CBomba@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: enum Estado __thiscall CBomba::getEstado(void)" (?getEstado@CBomba@@QAE?AW4Estado@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CBomba::getx(void)" (?getx@CBomba@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CBomba::gety(void)" (?gety@CBomba@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::setx(int)" (?setx@CBomba@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrBombas::setBombas(int)" (?setBombas@CArrBombas@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CArrBombas::getBombas(void)" (?getBombas@CArrBombas@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CMejora::CMejora(void)" (??0CMejora@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CMejora::~CMejora(void)" (??1CMejora@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CMejora::getRectangulo(void)" (?getRectangulo@CMejora@@QAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CMejora::DibujarMejora(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarMejora@CMejora@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CMejora::Animar(void)" (?Animar@CMejora@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CMejora::getTipodemejora(void)" (?getTipodemejora@CMejora@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEnemigo::CEnemigo(void)" (??0CEnemigo@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEnemigo::~CEnemigo(void)" (??1CEnemigo@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEnemigo::DibujarEnemigo(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarEnemigo@CEnemigo@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CEnemigo::Animar(void)" (?Animar@CEnemigo@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CEnemigo::getRectangulo(void)" (?getRectangulo@CEnemigo@@QAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CControlador::~CControlador(void)" (??1CControlador@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::NuevoNivel(void)" (?NuevoNivel@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CJugador * __thiscall CControlador::getobjJugador(void)" (?getobjJugador@CControlador@@QAEPAVCJugador@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CArrMejoras * __thiscall CControlador::getobjArrMejoras(void)" (?getobjArrMejoras@CControlador@@QAEPAVCArrMejoras@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CArrEnemigos * __thiscall CControlador::getobjArrEnemigos(void)" (?getobjArrEnemigos@CControlador@@QAEPAVCArrEnemigos@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CControlador::getNivel(void)" (?getNivel@CControlador@@QAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrMejoras::DibujarMejoras(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarMejoras@CArrMejoras@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrEnemigos::DibujarEnemigos(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarEnemigos@CArrEnemigos@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrBombas::CArrBombas(void)" (??0CArrBombas@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrBombas::~CArrBombas(void)" (??1CArrBombas@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrMejoras::CArrMejoras(void)" (??0CArrMejoras@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrMejoras::~CArrMejoras(void)" (??1CArrMejoras@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrEnemigos::CArrEnemigos(void)" (??0CArrEnemigos@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrEnemigos::~CArrEnemigos(void)" (??1CArrEnemigos@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CControlador::CControlador(void)" (??0CControlador@@QAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrBombas::CrearOtraBomba(int,int)" (?CrearOtraBomba@CArrBombas@@QAEXHH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrBombas::DibujarOtraBomba(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,int,int,int * *)" (?DibujarOtraBomba@CArrBombas@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1HHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CBomba *,class std::allocator<class CBomba *> > __thiscall CArrBombas::getarregloBombas(void)" (?getarregloBombas@CArrBombas@@QAE?AV?$vector@PAVCBomba@@V?$allocator@PAVCBomba@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrMejoras::CrearMejoras(void)" (?CrearMejoras@CArrMejoras@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CMejora *,class std::allocator<class CMejora *> > __thiscall CArrMejoras::getvector_mejoras(void)" (?getvector_mejoras@CArrMejoras@@QAE?AV?$vector@PAVCMejora@@V?$allocator@PAVCMejora@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrMejoras::eliminarenpos(int)" (?eliminarenpos@CArrMejoras@@QAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CEnemigo *,class std::allocator<class CEnemigo *> > __thiscall CArrEnemigos::getvector_enemigos(void)" (?getvector_enemigos@CArrEnemigos@@QAE?AV?$vector@PAVCEnemigo@@V?$allocator@PAVCEnemigo@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::AgregarBombas(void)" (?AgregarBombas@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::Disminuir_vidas_por_enemigo(void)" (?Disminuir_vidas_por_enemigo@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::Disminuir_vidas_por_bomba(void)" (?Disminuir_vidas_por_bomba@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::ObtenerMejoras(void)" (?ObtenerMejoras@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CControlador::Dibujar(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^)" (?Dibujar@CControlador@@QAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1111111@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrEnemigos::CrearEnemigos(void)" (?CrearEnemigos@CArrEnemigos@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::CrearEnemigoyMejora(void)" (?CrearEnemigoyMejora@CControlador@@QAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEscenario::CEscenario(void)" (??0CEscenario@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEscenario::~CEscenario(void)" (??1CEscenario@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CEscenario::generarMatriz(void)" (?generarMatriz@CEscenario@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEscenario::LlenarBase(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^)" (?LlenarBase@CEscenario@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEscenario::LlenarMatriz(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^)" (?LlenarMatriz@CEscenario@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int * * __thiscall CEscenario::getmatriz(void)" (?getmatriz@CEscenario@@$$FQAEPAPAHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CJugador::CJugador(int,int)" (??0CJugador@@$$FQAE@HH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CJugador::~CJugador(void)" (??1CJugador@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CJugador::getRectangulo(void)" (?getRectangulo@CJugador@@$$FQAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setdx(int)" (?setdx@CJugador@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setdy(int)" (?setdy@CJugador@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::getx(void)" (?getx@CJugador@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::gety(void)" (?gety@CJugador@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CJugador::getvidas(void)" (?getvidas@CJugador@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setvidas(int)" (?setvidas@CJugador@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setDireccion(enum Direcciones)" (?setDireccion@CJugador@@$$FQAEXW4Direcciones@@@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: enum Direcciones __thiscall CJugador::getDireccion(void)" (?getDireccion@CJugador@@$$FQAE?AW4Direcciones@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::setAcelerar(int)" (?setAcelerar@CJugador@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::ValidarMovimiento(int * *)" (?ValidarMovimiento@CJugador@@$$FQAEXPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::DisminuirVidas(void)" (?DisminuirVidas@CJugador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CJugador::DisminuirVidas(int,int,int,int,int,int,int,int)" (?DisminuirVidas@CJugador@@$$FQAEXHHHHHHHH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CJugador::DibujarJugador(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarJugador@CJugador@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CJugador::MoverJugador(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?MoverJugador@CJugador@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CBomba::CBomba(int,int)" (??0CBomba@@$$FQAE@HH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CBomba::~CBomba(void)" (??1CBomba@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CBomba::getRectangulo(void)" (?getRectangulo@CBomba@@$$FQAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: bool __thiscall CBomba::ValidarLugar(int,int,int * *)" (?ValidarLugar@CBomba@@$$FQAE_NHHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CBomba::DibujarBomba(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int,int,int * *)" (?DibujarBomba@CBomba@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@HHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::Animar(void)" (?Animar@CBomba@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CBomba::DibujarExplosion(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarExplosion@CBomba@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::AnimarExplosion(void)" (?AnimarExplosion@CBomba@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: enum Estado __thiscall CBomba::getEstado(void)" (?getEstado@CBomba@@$$FQAE?AW4Estado@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CBomba::getx(void)" (?getx@CBomba@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CBomba::gety(void)" (?gety@CBomba@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CBomba::setx(int)" (?setx@CBomba@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrBombas::setBombas(int)" (?setBombas@CArrBombas@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CArrBombas::getBombas(void)" (?getBombas@CArrBombas@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CMejora::CMejora(void)" (??0CMejora@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CMejora::~CMejora(void)" (??1CMejora@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CMejora::getRectangulo(void)" (?getRectangulo@CMejora@@$$FQAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CMejora::DibujarMejora(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarMejora@CMejora@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CMejora::Animar(void)" (?Animar@CMejora@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CMejora::getTipodemejora(void)" (?getTipodemejora@CMejora@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEnemigo::CEnemigo(void)" (??0CEnemigo@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CEnemigo::~CEnemigo(void)" (??1CEnemigo@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CEnemigo::DibujarEnemigo(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarEnemigo@CEnemigo@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CEnemigo::Animar(void)" (?Animar@CEnemigo@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class System::Drawing::Rectangle __clrcall CEnemigo::getRectangulo(void)" (?getRectangulo@CEnemigo@@$$FQAM?AVRectangle@Drawing@System@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CControlador::~CControlador(void)" (??1CControlador@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::NuevoNivel(void)" (?NuevoNivel@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CJugador * __thiscall CControlador::getobjJugador(void)" (?getobjJugador@CControlador@@$$FQAEPAVCJugador@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CArrMejoras * __thiscall CControlador::getobjArrMejoras(void)" (?getobjArrMejoras@CControlador@@$$FQAEPAVCArrMejoras@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class CArrEnemigos * __thiscall CControlador::getobjArrEnemigos(void)" (?getobjArrEnemigos@CControlador@@$$FQAEPAVCArrEnemigos@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: int __thiscall CControlador::getNivel(void)" (?getNivel@CControlador@@$$FQAEHXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrMejoras::DibujarMejoras(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarMejoras@CArrMejoras@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrEnemigos::DibujarEnemigos(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,int * *)" (?DibujarEnemigos@CArrEnemigos@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@PAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrBombas::CArrBombas(void)" (??0CArrBombas@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrBombas::~CArrBombas(void)" (??1CArrBombas@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrMejoras::CArrMejoras(void)" (??0CArrMejoras@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrMejoras::~CArrMejoras(void)" (??1CArrMejoras@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrEnemigos::CArrEnemigos(void)" (??0CArrEnemigos@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CArrEnemigos::~CArrEnemigos(void)" (??1CArrEnemigos@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: __thiscall CControlador::CControlador(void)" (??0CControlador@@$$FQAE@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrBombas::CrearOtraBomba(int,int)" (?CrearOtraBomba@CArrBombas@@$$FQAEXHH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CArrBombas::DibujarOtraBomba(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,int,int,int * *)" (?DibujarOtraBomba@CArrBombas@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1HHPAPAH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CBomba *,class std::allocator<class CBomba *> > __thiscall CArrBombas::getarregloBombas(void)" (?getarregloBombas@CArrBombas@@$$FQAE?AV?$vector@PAVCBomba@@V?$allocator@PAVCBomba@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrMejoras::CrearMejoras(void)" (?CrearMejoras@CArrMejoras@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CMejora *,class std::allocator<class CMejora *> > __thiscall CArrMejoras::getvector_mejoras(void)" (?getvector_mejoras@CArrMejoras@@$$FQAE?AV?$vector@PAVCMejora@@V?$allocator@PAVCMejora@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrMejoras::eliminarenpos(int)" (?eliminarenpos@CArrMejoras@@$$FQAEXH@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: class std::vector<class CEnemigo *,class std::allocator<class CEnemigo *> > __thiscall CArrEnemigos::getvector_enemigos(void)" (?getvector_enemigos@CArrEnemigos@@$$FQAE?AV?$vector@PAVCEnemigo@@V?$allocator@PAVCEnemigo@@@std@@@std@@XZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::AgregarBombas(void)" (?AgregarBombas@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::Disminuir_vidas_por_enemigo(void)" (?Disminuir_vidas_por_enemigo@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::Disminuir_vidas_por_bomba(void)" (?Disminuir_vidas_por_bomba@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::ObtenerMejoras(void)" (?ObtenerMejoras@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __clrcall CControlador::Dibujar(class System::Drawing::Graphics ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^,class System::Drawing::Bitmap ^)" (?Dibujar@CControlador@@$$FQAMXP$AAVGraphics@Drawing@System@@P$AAVBitmap@34@1111111@Z) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CArrEnemigos::CrearEnemigos(void)" (?CrearEnemigos@CArrEnemigos@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2005: ya se definió "public: void __thiscall CControlador::CrearEnemigoyMejora(void)" (?CrearEnemigoyMejora@CControlador@@$$FQAEXXZ) en Juego.obj
+MenuPrincipal.obj : error LNK2020: símbolo (token) sin resolver (0A000190) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+Juego.obj : error LNK2020: símbolo (token) sin resolver (0A00018F) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+MenuPrincipal.obj : error LNK2028: se hace referencia al símbolo (token) sin resolver (0A000245) "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) en la función "void __cdecl std::_Adjust_manually_vector_aligned(void * &,unsigned int &)" (?_Adjust_manually_vector_aligned@std@@$$FYAXAAPAXAAI@Z)
+Juego.obj : error LNK2028: se hace referencia al símbolo (token) sin resolver (0A000231) "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) en la función "void __cdecl std::_Adjust_manually_vector_aligned(void * &,unsigned int &)" (?_Adjust_manually_vector_aligned@std@@$$FYAXAAPAXAAI@Z)
+MenuPrincipal.obj : error LNK2020: símbolo (token) sin resolver (0A00025B) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+Juego.obj : error LNK2020: símbolo (token) sin resolver (0A000247) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+Juego.obj : error LNK2001: símbolo externo "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ) sin resolver
+MenuPrincipal.obj : error LNK2001: símbolo externo "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ) sin resolver
+Juego.obj : error LNK2019: símbolo externo "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) sin resolver al que se hace referencia en la función "void __cdecl std::_Adjust_manually_vector_aligned(void * &,unsigned int &)" (?_Adjust_manually_vector_aligned@std@@$$FYAXAAPAXAAI@Z)
+MenuPrincipal.obj : error LNK2001: símbolo externo "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) sin resolver
+D:\ejemplo\Bombardeador\Debug\Bombardeador.exe : fatal error LNK1120: 8 externos sin resolver

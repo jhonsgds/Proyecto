@@ -1,0 +1,5 @@
+D:\ejemplo\Bombardeador\Debug\Bombardeador.vcxprojAssemblyReference.cache
+D:\ejemplo\Bombardeador\Debug\Bombardeador.Juego.resources
+D:\ejemplo\Bombardeador\Debug\Bombardeador.vcxproj.GenerateResource.cache
+D:\ejemplo\Bombardeador\Debug\Bombardeador.exe
+D:\ejemplo\Bombardeador\Debug\Bombardeador.pdb
